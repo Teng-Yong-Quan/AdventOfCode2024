@@ -54,8 +54,6 @@ while index < len(input_data_lst):
             index += 1
     else:
         break
-       
-         
 valid_mul_list = list(map(lambda x : x.split(','),list(map(lambda x : x[4:-1],valid_mul_list))))
 ans = sum(list(map(lambda x : int(x[0])*int(x[1]),valid_mul_list)))
 print(ans)
