@@ -43,7 +43,7 @@ while id_end >= 0:
     id_end -= 1
 ans = 0
 for i in range(len(lst)):
-     if lst[i] != '.':
+    if lst[i] != '.':
         ans += i*lst[i]
 print(ans)
 input_data.close()
