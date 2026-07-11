@@ -65,5 +65,5 @@ while pq:
         new_lst = [x for x in new_lst if x]    
         pq.extend(new_lst)
     pq = sorted(pq,key = lambda t:t[1])
-print(end_lst[-1][1])
+print(end_lst)
 input_data.close()
